@@ -1,0 +1,18 @@
+{
+  "name": "rail-ticket-assistant",
+  "version": "0.1.0",
+  "description": "12306 自动购票助手 - 本地 Web 服务（仅本人及直系亲属自用）",
+  "type": "module",
+  "main": "src/main.js",
+  "scripts": {
+    "start": "node src/main.js"
+  },
+  "engines": {
+    "node": ">=22"
+  },
+  "license": "UNLICENSED",
+  "private": true,
+  "dependencies": {
+    "express": "^4.21.0"
+  }
+}

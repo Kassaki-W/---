@@ -1,0 +1,372 @@
+{"ts":"2026-10-21T12:41:23.271Z","level":"info","module":"db","message":"数据库已就绪","extra":{"path":"D:\\03_ File\\03_Trae\\高铁票\\dist\\12306购票助手-绿色版\\data\\app.db"}}
+{"ts":"2026-10-21T12:41:23.331Z","level":"info","module":"main","message":"服务已启动","extra":{"url":"http://127.0.0.1:12306"}}
+{"ts":"2026-10-21T12:41:23.561Z","level":"info","module":"clock","message":"时钟校准完成，本地与服务端偏移 73ms"}
+{"ts":"2026-10-21T12:41:23.561Z","level":"info","module":"engine","message":"调度引擎已启动","extra":{"offsetMs":73,"lastCalibratedAt":"2026-10-21T12:41:23.561Z"}}
+{"ts":"2026-10-21T12:41:28.743Z","level":"warn","module":"session","message":"会话失效，进入全局阻断：暂停全部任务，等待人工重新登录","extra":{"reason":"平台校验未通过","raw":"{\"validateMessagesShowId\":\"_validatorMessage\",\"status\":true,\"httpstatus\":200,\"data\":{\"flag\":false},\"messages\":[],\"validateMessages\":{}}"}}
+{"ts":"2026-10-21T12:41:29.673Z","level":"info","module":"session","message":"登录二维码已生成，等待扫码"}
+{"ts":"2026-10-21T12:41:53.252Z","level":"info","module":"session","message":"登录二维码已生成，等待扫码"}
+{"ts":"2026-10-21T12:41:57.379Z","level":"info","module":"session","message":"登录态已加密落库","extra":{"username":"王玮康"}}
+{"ts":"2026-10-21T12:42:00.630Z","level":"info","module":"session","message":"登录态已加密落库","extra":{"username":"-"}}
+{"ts":"2026-10-21T12:42:24.521Z","level":"info","module":"tickets","message":"余票查询完成","extra":{"count":322}}
+{"ts":"2026-10-21T12:42:24.522Z","level":"info","module":"tasks","message":"任务已创建","extra":{"taskId":4,"name":"test","windowEnd":"2026-10-22 11:38"}}
+{"ts":"2026-10-21T12:42:26.295Z","level":"info","module":"state","message":"任务「test」状态跃迁","extra":{"taskId":4,"from":"DRAFT","to":"ARMED","reason":"校验通过，等待开抢时刻"}}
+{"ts":"2026-10-21T12:42:26.436Z","level":"info","module":"engine","message":"存在活跃任务，已阻止系统休眠"}
+{"ts":"2026-10-21T12:43:10.794Z","level":"info","module":"state","message":"任务「test」状态跃迁","extra":{"taskId":4,"from":"ARMED","to":"RUNNING","reason":"到达开抢时刻"}}
+{"ts":"2026-10-21T12:43:10.940Z","level":"info","module":"session","message":"登录态已加密落库","extra":{"username":"-"}}
+{"ts":"2026-10-21T12:43:11.149Z","level":"info","module":"tickets","message":"余票查询完成","extra":{"count":322}}
+{"ts":"2026-10-21T12:43:11.150Z","level":"info","module":"engine","message":"第 1 轮命中候选：C2226 二等座","extra":{"taskId":4,"round":1}}
+{"ts":"2026-10-21T12:43:11.249Z","level":"info","module":"submit","message":"车次已登记","extra":{"hint":"0"}}
+{"ts":"2026-10-21T12:43:11.348Z","level":"info","module":"submit","message":"initDc 成功","extra":{"hasToken":true,"isAsync":"1","purposeCodes":"00","leftDetails":0}}
+{"ts":"2026-10-21T12:43:11.400Z","level":"info","module":"submit","message":"getQueueCountAsync","extra":{}}
+{"ts":"2026-10-21T12:43:11.451Z","level":"info","module":"submit","message":"confirm 提交","extra":{"ok":false,"errMsg":"系统繁忙，请稍后重试！","isAsync":"1"}}
+{"ts":"2026-10-21T12:43:11.453Z","level":"info","module":"state","message":"任务「test」状态跃迁","extra":{"taskId":4,"from":"RUNNING","to":"FAILED","reason":"提交失败：Error: 提交被拒：系统繁忙，请稍后重试！"}}
+{"ts":"2026-10-21T12:43:11.598Z","level":"info","module":"engine","message":"无活跃任务，已解除休眠阻止"}
+{"ts":"2026-10-21T12:46:23.676Z","level":"info","module":"clock","message":"时钟校准完成，本地与服务端偏移 -121ms"}
+{"ts":"2026-10-21T12:51:24.882Z","level":"info","module":"clock","message":"时钟校准完成，本地与服务端偏移 275ms"}
+{"ts":"2026-10-21T12:56:23.697Z","level":"info","module":"clock","message":"时钟校准完成，本地与服务端偏移 -135ms"}
+{"ts":"2026-10-21T12:56:32.735Z","level":"info","module":"db","message":"数据库已就绪","extra":{"path":"D:\\03_ File\\03_Trae\\高铁票\\dist\\12306购票助手-绿色版\\data\\app.db"}}
+{"ts":"2026-10-21T12:56:32.777Z","level":"info","module":"main","message":"服务已启动","extra":{"url":"http://127.0.0.1:12306"}}
+{"ts":"2026-10-21T12:56:32.945Z","level":"info","module":"clock","message":"时钟校准完成，本地与服务端偏移 -347ms"}
+{"ts":"2026-10-21T12:56:32.946Z","level":"info","module":"engine","message":"调度引擎已启动","extra":{"offsetMs":-347,"lastCalibratedAt":"2026-10-21T12:56:32.945Z"}}
+{"ts":"2026-10-21T12:56:36.616Z","level":"info","module":"session","message":"登录二维码已生成，等待扫码"}
+{"ts":"2026-10-21T12:56:52.801Z","level":"info","module":"session","message":"登录态已加密落库","extra":{"username":"王玮康"}}
+{"ts":"2026-10-21T12:56:56.078Z","level":"info","module":"session","message":"登录态已加密落库","extra":{"username":"-"}}
+{"ts":"2026-10-21T12:57:14.000Z","level":"info","module":"tickets","message":"余票查询完成","extra":{"count":322}}
+{"ts":"2026-10-21T12:57:14.001Z","level":"info","module":"tasks","message":"任务已创建","extra":{"taskId":5,"name":"test","windowEnd":"2026-10-22 11:38"}}
+{"ts":"2026-10-21T12:57:15.629Z","level":"info","module":"state","message":"任务「test」状态跃迁","extra":{"taskId":5,"from":"DRAFT","to":"ARMED","reason":"校验通过，等待开抢时刻"}}
+{"ts":"2026-10-21T12:57:15.742Z","level":"info","module":"engine","message":"存在活跃任务，已阻止系统休眠"}
+{"ts":"2026-10-21T12:58:06.323Z","level":"info","module":"state","message":"任务「test」状态跃迁","extra":{"taskId":5,"from":"ARMED","to":"RUNNING","reason":"到达开抢时刻"}}
+{"ts":"2026-10-21T12:58:06.405Z","level":"info","module":"session","message":"登录态已加密落库","extra":{"username":"-"}}
+{"ts":"2026-10-21T12:58:06.606Z","level":"info","module":"tickets","message":"余票查询完成","extra":{"count":322}}
+{"ts":"2026-10-21T12:58:06.607Z","level":"info","module":"engine","message":"第 1 轮命中候选：C2226 二等座","extra":{"taskId":5,"round":1}}
+{"ts":"2026-10-21T12:58:06.984Z","level":"info","module":"submit","message":"车次已登记","extra":{"hint":"0"}}
+{"ts":"2026-10-21T12:58:07.367Z","level":"info","module":"submit","message":"initDc 成功","extra":{"hasToken":true,"isAsync":"1","purposeCodes":"00","trainLocation":"P2","leftDetails":199}}
+{"ts":"2026-10-21T12:58:07.663Z","level":"info","module":"submit","message":"getPassengerDTOs","extra":{"count":0}}
+{"ts":"2026-10-21T12:58:07.990Z","level":"info","module":"submit","message":"getQueueCountAsync","extra":{"resp":"{\"validateMessagesShowId\":\"_validatorMessage\",\"status\":false,\"httpstatus\":200,\"messages\":[\"系统繁忙，请稍后重试！\"],\"validateMessages\":{}}"}}
+{"ts":"2026-10-21T12:58:08.285Z","level":"info","module":"submit","message":"confirm 提交","extra":{"ok":false,"isAsync":"1","trainLocation":"P2","resp":"{\"validateMessagesShowId\":\"_validatorMessage\",\"status\":true,\"httpstatus\":200,\"data\":{\"errMsg\":\"系统繁忙，请稍后重试！\",\"submitStatus\":false},\"messages\":[],\"validateMessages\":{}}"}}
+{"ts":"2026-10-21T12:58:08.287Z","level":"info","module":"state","message":"任务「test」状态跃迁","extra":{"taskId":5,"from":"RUNNING","to":"FAILED","reason":"提交失败：Error: 提交被拒：系统繁忙，请稍后重试！"}}
+{"ts":"2026-10-21T12:58:08.328Z","level":"info","module":"engine","message":"无活跃任务，已解除休眠阻止"}
+{"ts":"2026-10-21T13:01:33.056Z","level":"info","module":"clock","message":"时钟校准完成，本地与服务端偏移 496ms"}
+{"ts":"2026-10-21T13:02:26.454Z","level":"info","module":"db","message":"数据库已就绪","extra":{"path":"D:\\03_ File\\03_Trae\\高铁票\\dist\\12306购票助手-绿色版\\data\\app.db"}}
+{"ts":"2026-10-21T13:02:27.061Z","level":"info","module":"tickets","message":"余票查询完成","extra":{"count":322}}
+{"ts":"2026-10-21T13:02:27.199Z","level":"info","module":"submit","message":"已注入设备指纹 Cookie"}
+{"ts":"2026-10-21T13:02:27.201Z","level":"info","module":"session","message":"登录态已加密落库","extra":{"username":"-"}}
+{"ts":"2026-10-21T13:02:27.321Z","level":"info","module":"submit","message":"车次已登记","extra":{"hint":"0"}}
+{"ts":"2026-10-21T13:02:27.764Z","level":"info","module":"submit","message":"initDc 成功","extra":{"hasToken":true,"isAsync":"1","purposeCodes":"00","trainLocation":"P2","leftDetails":199}}
+{"ts":"2026-10-21T13:05:11.942Z","level":"info","module":"db","message":"数据库已就绪","extra":{"path":"D:\\03_ File\\03_Trae\\高铁票\\dist\\12306购票助手-绿色版\\data\\app.db"}}
+{"ts":"2026-10-21T13:05:12.462Z","level":"info","module":"tickets","message":"余票查询完成","extra":{"count":322}}
+{"ts":"2026-10-21T13:05:12.571Z","level":"info","module":"session","message":"登录态已加密落库","extra":{"username":"-"}}
+{"ts":"2026-10-21T13:05:12.643Z","level":"info","module":"submit","message":"车次已登记","extra":{"hint":"0"}}
+{"ts":"2026-10-21T13:05:13.014Z","level":"info","module":"submit","message":"initDc 成功","extra":{"hasToken":true,"isAsync":"1","purposeCodes":"00","trainLocation":"P2","leftDetails":199}}
+{"ts":"2026-10-21T13:06:08.511Z","level":"info","module":"db","message":"数据库已就绪","extra":{"path":"D:\\03_ File\\03_Trae\\高铁票\\dist\\12306购票助手-绿色版\\data\\app.db"}}
+{"ts":"2026-10-21T13:06:09.077Z","level":"info","module":"tickets","message":"余票查询完成","extra":{"count":322}}
+{"ts":"2026-10-21T13:06:09.204Z","level":"info","module":"session","message":"登录态已加密落库","extra":{"username":"-"}}
+{"ts":"2026-10-21T13:06:09.280Z","level":"info","module":"submit","message":"车次已登记","extra":{"hint":"0"}}
+{"ts":"2026-10-21T13:06:09.738Z","level":"info","module":"submit","message":"initDc 成功","extra":{"hasToken":true,"isAsync":"1","purposeCodes":"00","trainLocation":"P2","leftDetails":199}}
+{"ts":"2026-10-21T13:06:10.091Z","level":"info","module":"submit","message":"getQueueCountAsync","extra":{"resp":"{\"validateMessagesShowId\":\"_validatorMessage\",\"status\":false,\"httpstatus\":200,\"messages\":[\"系统繁忙，请稍后重试！\"],\"validateMessages\":{}}"}}
+{"ts":"2026-10-21T13:06:33.099Z","level":"info","module":"clock","message":"时钟校准完成，本地与服务端偏移 473ms"}
+{"ts":"2026-10-21T13:08:46.464Z","level":"info","module":"db","message":"数据库已就绪","extra":{"path":"D:\\03_ File\\03_Trae\\高铁票\\dist\\12306购票助手-绿色版\\data\\app.db"}}
+{"ts":"2026-10-21T13:08:46.890Z","level":"info","module":"tickets","message":"余票查询完成","extra":{"count":322}}
+{"ts":"2026-10-21T13:08:47.159Z","level":"info","module":"submit","message":"车次已登记","extra":{"hint":"0"}}
+{"ts":"2026-10-21T13:08:47.554Z","level":"info","module":"submit","message":"initDc 成功","extra":{"hasToken":true,"isAsync":"1","purposeCodes":"00","trainLocation":"P2","leftDetails":199}}
+{"ts":"2026-10-21T13:08:47.877Z","level":"info","module":"submit","message":"getQueueCountAsync","extra":{"resp":"{\"validateMessagesShowId\":\"_validatorMessage\",\"status\":false,\"httpstatus\":200,\"messages\":[\"系统繁忙，请稍后重试！\"],\"validateMessages\":{}}"}}
+{"ts":"2026-10-21T13:11:33.058Z","level":"info","module":"clock","message":"时钟校准完成，本地与服务端偏移 491ms"}
+{"ts":"2026-10-21T13:14:44.213Z","level":"info","module":"tickets","message":"余票查询完成","extra":{"count":322}}
+{"ts":"2026-10-21T13:14:44.214Z","level":"info","module":"tasks","message":"任务已创建","extra":{"taskId":6,"name":"test","windowEnd":"2026-10-22 11:38"}}
+{"ts":"2026-10-21T13:14:46.041Z","level":"info","module":"state","message":"任务「test」状态跃迁","extra":{"taskId":6,"from":"DRAFT","to":"ARMED","reason":"校验通过，等待开抢时刻"}}
+{"ts":"2026-10-21T13:14:46.082Z","level":"info","module":"engine","message":"存在活跃任务，已阻止系统休眠"}
+{"ts":"2026-10-21T13:15:05.363Z","level":"info","module":"state","message":"任务「test」状态跃迁","extra":{"taskId":6,"from":"ARMED","to":"RUNNING","reason":"到达开抢时刻"}}
+{"ts":"2026-10-21T13:15:05.453Z","level":"info","module":"session","message":"登录态已加密落库","extra":{"username":"-"}}
+{"ts":"2026-10-21T13:15:05.538Z","level":"info","module":"tickets","message":"余票查询完成","extra":{"count":322}}
+{"ts":"2026-10-21T13:15:05.538Z","level":"info","module":"engine","message":"第 1 轮命中候选：C2226 二等座","extra":{"taskId":6,"round":1}}
+{"ts":"2026-10-21T13:15:05.877Z","level":"info","module":"state","message":"任务「test」状态跃迁","extra":{"taskId":6,"from":"RUNNING","to":"FAILED","reason":"提交失败：Error: /otn/leftTicket/submitOrderRequest 返回非 JSON（状态 200）: <!DOCTYPE html PUBLIC \"-//W3C//DTD XHTML 1.0 Transitional//EN\" \"http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd\""}}
+{"ts":"2026-10-21T13:15:05.963Z","level":"info","module":"engine","message":"无活跃任务，已解除休眠阻止"}
+{"ts":"2026-10-21T13:16:33.169Z","level":"info","module":"clock","message":"时钟校准完成，本地与服务端偏移 433ms"}
+{"ts":"2026-10-21T13:21:33.083Z","level":"info","module":"clock","message":"时钟校准完成，本地与服务端偏移 474ms"}
+{"ts":"2026-10-21T13:26:33.073Z","level":"info","module":"clock","message":"时钟校准完成，本地与服务端偏移 477ms"}
+{"ts":"2026-10-21T13:31:33.213Z","level":"info","module":"clock","message":"时钟校准完成，本地与服务端偏移 405ms"}
+{"ts":"2026-10-21T13:35:35.705Z","level":"info","module":"db","message":"数据库已就绪","extra":{"path":"D:\\03_ File\\03_Trae\\高铁票\\dist\\12306购票助手-绿色版\\data\\app.db"}}
+{"ts":"2026-10-21T13:35:35.953Z","level":"info","module":"tickets","message":"余票查询完成","extra":{"count":322}}
+{"ts":"2026-10-21T13:35:36.182Z","level":"info","module":"session","message":"登录态已加密落库","extra":{"username":"-"}}
+{"ts":"2026-10-21T13:36:33.236Z","level":"info","module":"clock","message":"时钟校准完成，本地与服务端偏移 391ms"}
+{"ts":"2026-10-21T13:37:59.282Z","level":"info","module":"db","message":"数据库已就绪","extra":{"path":"D:\\03_ File\\03_Trae\\高铁票\\dist\\12306购票助手-绿色版\\data\\app.db"}}
+{"ts":"2026-10-21T13:37:59.542Z","level":"info","module":"tickets","message":"余票查询完成","extra":{"count":322}}
+{"ts":"2026-10-21T13:37:59.743Z","level":"info","module":"session","message":"登录态已加密落库","extra":{"username":"-"}}
+{"ts":"2026-10-21T13:38:18.704Z","level":"info","module":"db","message":"数据库已就绪","extra":{"path":"D:\\03_ File\\03_Trae\\高铁票\\dist\\12306购票助手-绿色版\\data\\app.db"}}
+{"ts":"2026-10-21T13:40:08.032Z","level":"info","module":"db","message":"数据库已就绪","extra":{"path":"D:\\03_ File\\03_Trae\\高铁票\\dist\\12306购票助手-绿色版\\data\\app.db"}}
+{"ts":"2026-10-21T13:40:08.400Z","level":"info","module":"session","message":"登录态已加密落库","extra":{"username":"-"}}
+{"ts":"2026-10-21T13:41:33.188Z","level":"info","module":"clock","message":"时钟校准完成，本地与服务端偏移 413ms"}
+{"ts":"2026-10-21T13:43:50.322Z","level":"info","module":"db","message":"数据库已就绪","extra":{"path":"D:\\03_ File\\03_Trae\\高铁票\\dist\\12306购票助手-绿色版\\data\\app.db"}}
+{"ts":"2026-10-21T13:43:50.362Z","level":"info","module":"main","message":"服务已启动","extra":{"url":"http://127.0.0.1:12306"}}
+{"ts":"2026-10-21T13:43:50.468Z","level":"info","module":"clock","message":"时钟校准完成，本地与服务端偏移 99ms"}
+{"ts":"2026-10-21T13:43:50.468Z","level":"info","module":"engine","message":"调度引擎已启动","extra":{"offsetMs":99,"lastCalibratedAt":"2026-10-21T13:43:50.468Z"}}
+{"ts":"2026-10-21T13:43:54.639Z","level":"info","module":"session","message":"登录二维码已生成，等待扫码"}
+{"ts":"2026-10-21T13:44:04.823Z","level":"info","module":"session","message":"登录态已加密落库","extra":{"username":"王玮康"}}
+{"ts":"2026-10-21T13:44:21.630Z","level":"info","module":"tickets","message":"余票查询完成","extra":{"count":322}}
+{"ts":"2026-10-21T13:44:21.632Z","level":"info","module":"tasks","message":"任务已创建","extra":{"taskId":7,"name":"test","windowEnd":"2026-10-22 11:38"}}
+{"ts":"2026-10-21T13:44:23.412Z","level":"info","module":"state","message":"任务「test」状态跃迁","extra":{"taskId":7,"from":"DRAFT","to":"ARMED","reason":"校验通过，等待开抢时刻"}}
+{"ts":"2026-10-21T13:44:23.602Z","level":"info","module":"engine","message":"存在活跃任务，已阻止系统休眠"}
+{"ts":"2026-10-21T13:45:13.771Z","level":"info","module":"state","message":"任务「test」状态跃迁","extra":{"taskId":7,"from":"ARMED","to":"RUNNING","reason":"到达开抢时刻"}}
+{"ts":"2026-10-21T13:45:13.875Z","level":"info","module":"session","message":"登录态已加密落库","extra":{"username":"-"}}
+{"ts":"2026-10-21T13:45:13.955Z","level":"info","module":"tickets","message":"余票查询完成","extra":{"count":322}}
+{"ts":"2026-10-21T13:45:13.956Z","level":"info","module":"engine","message":"第 1 轮命中候选：C2226 二等座","extra":{"taskId":7,"round":1}}
+{"ts":"2026-10-21T13:45:14.233Z","level":"info","module":"submit","message":"已注入设备指纹 Cookie"}
+{"ts":"2026-10-21T13:45:14.235Z","level":"info","module":"session","message":"登录态已加密落库","extra":{"username":"-"}}
+{"ts":"2026-10-21T13:45:14.531Z","level":"info","module":"state","message":"任务「test」状态跃迁","extra":{"taskId":7,"from":"RUNNING","to":"FAILED","reason":"提交失败：Error: 提交车次被拒：您还有未处理的订单，请您到<a href=\"../view/train_order.html\">[未完成订单]</a>进行处理!"}}
+{"ts":"2026-10-21T13:45:14.573Z","level":"info","module":"engine","message":"无活跃任务，已解除休眠阻止"}
+{"ts":"2026-10-21T13:46:18.279Z","level":"info","module":"tickets","message":"余票查询完成","extra":{"count":322}}
+{"ts":"2026-10-21T13:46:18.280Z","level":"info","module":"tasks","message":"任务已创建","extra":{"taskId":8,"name":"test","windowEnd":"2026-10-22 11:38"}}
+{"ts":"2026-10-21T13:46:19.414Z","level":"info","module":"state","message":"任务「test」状态跃迁","extra":{"taskId":8,"from":"DRAFT","to":"ARMED","reason":"校验通过，等待开抢时刻"}}
+{"ts":"2026-10-21T13:46:19.431Z","level":"info","module":"engine","message":"存在活跃任务，已阻止系统休眠"}
+{"ts":"2026-10-21T13:47:13.844Z","level":"info","module":"state","message":"任务「test」状态跃迁","extra":{"taskId":8,"from":"ARMED","to":"RUNNING","reason":"到达开抢时刻"}}
+{"ts":"2026-10-21T13:47:13.933Z","level":"info","module":"session","message":"登录态已加密落库","extra":{"username":"-"}}
+{"ts":"2026-10-21T13:47:14.015Z","level":"info","module":"tickets","message":"余票查询完成","extra":{"count":322}}
+{"ts":"2026-10-21T13:47:14.015Z","level":"info","module":"engine","message":"第 1 轮命中候选：C2226 二等座","extra":{"taskId":8,"round":1}}
+{"ts":"2026-10-21T13:47:14.350Z","level":"info","module":"session","message":"登录态已加密落库","extra":{"username":"-"}}
+{"ts":"2026-10-21T13:47:14.667Z","level":"info","module":"submit","message":"车次已登记","extra":{"hint":"0"}}
+{"ts":"2026-10-21T13:47:15.039Z","level":"info","module":"submit","message":"initDc 成功","extra":{"hasToken":true,"isAsync":"1","purposeCodes":"00","trainLocation":"P2","leftDetails":199}}
+{"ts":"2026-10-21T13:47:15.339Z","level":"info","module":"submit","message":"getPassengerDTOs","extra":{"count":2}}
+{"ts":"2026-10-21T13:47:15.592Z","level":"info","module":"state","message":"任务「test」状态跃迁","extra":{"taskId":8,"from":"RUNNING","to":"FAILED","reason":"提交失败：Error: 乘车人「王**」未在平台档案中找到（需先在 12306 完成实名核验）"}}
+{"ts":"2026-10-21T13:47:15.649Z","level":"info","module":"engine","message":"无活跃任务，已解除休眠阻止"}
+{"ts":"2026-10-21T13:48:50.567Z","level":"info","module":"clock","message":"时钟校准完成，本地与服务端偏移 -20ms"}
+{"ts":"2026-10-21T13:49:14.296Z","level":"info","module":"passengers","message":"修改乘车人","extra":{"id":1,"idLast4":"321X"}}
+{"ts":"2026-10-21T13:53:50.600Z","level":"info","module":"clock","message":"时钟校准完成，本地与服务端偏移 -39ms"}
+{"ts":"2026-10-21T13:58:50.584Z","level":"info","module":"clock","message":"时钟校准完成，本地与服务端偏移 -34ms"}
+{"ts":"2026-10-21T14:03:50.827Z","level":"info","module":"clock","message":"时钟校准完成，本地与服务端偏移 -156ms"}
+{"ts":"2026-10-21T14:08:50.600Z","level":"info","module":"clock","message":"时钟校准完成，本地与服务端偏移 -43ms"}
+{"ts":"2026-10-21T14:13:50.591Z","level":"info","module":"clock","message":"时钟校准完成，本地与服务端偏移 -39ms"}
+{"ts":"2026-10-21T14:18:50.600Z","level":"info","module":"clock","message":"时钟校准完成，本地与服务端偏移 -43ms"}
+{"ts":"2026-10-21T14:23:50.601Z","level":"info","module":"clock","message":"时钟校准完成，本地与服务端偏移 -45ms"}
+{"ts":"2026-10-21T14:28:50.619Z","level":"info","module":"clock","message":"时钟校准完成，本地与服务端偏移 -54ms"}
+{"ts":"2026-10-21T14:33:43.798Z","level":"info","module":"db","message":"数据库已就绪","extra":{"path":"D:\\03_ File\\03_Trae\\高铁票\\dist\\12306购票助手-绿色版\\data\\app.db"}}
+{"ts":"2026-10-21T14:33:44.123Z","level":"info","module":"tickets","message":"余票查询完成","extra":{"count":322}}
+{"ts":"2026-10-21T14:33:44.294Z","level":"info","module":"session","message":"登录态已加密落库","extra":{"username":"-"}}
+{"ts":"2026-10-21T14:37:19.428Z","level":"info","module":"db","message":"数据库已就绪","extra":{"path":"D:\\03_ File\\03_Trae\\高铁票\\dist\\12306购票助手-绿色版\\data\\app.db"}}
+{"ts":"2026-10-21T14:37:19.469Z","level":"info","module":"main","message":"服务已启动","extra":{"url":"http://127.0.0.1:12306"}}
+{"ts":"2026-10-21T14:37:19.650Z","level":"info","module":"clock","message":"时钟校准完成，本地与服务端偏移 -46ms"}
+{"ts":"2026-10-21T14:37:19.650Z","level":"info","module":"engine","message":"调度引擎已启动","extra":{"offsetMs":-46,"lastCalibratedAt":"2026-10-21T14:37:19.650Z"}}
+{"ts":"2026-10-21T14:37:24.738Z","level":"info","module":"session","message":"登录二维码已生成，等待扫码"}
+{"ts":"2026-10-21T14:37:36.979Z","level":"info","module":"session","message":"登录态已加密落库","extra":{"username":"王玮康"}}
+{"ts":"2026-10-21T14:38:03.333Z","level":"info","module":"tickets","message":"余票查询完成","extra":{"count":322}}
+{"ts":"2026-10-21T14:38:03.334Z","level":"info","module":"tasks","message":"任务已创建","extra":{"taskId":9,"name":"test","windowEnd":"2026-10-22 11:38"}}
+{"ts":"2026-10-21T14:38:04.897Z","level":"info","module":"state","message":"任务「test」状态跃迁","extra":{"taskId":9,"from":"DRAFT","to":"ARMED","reason":"校验通过，等待开抢时刻"}}
+{"ts":"2026-10-21T14:38:05.070Z","level":"info","module":"engine","message":"存在活跃任务，已阻止系统休眠"}
+{"ts":"2026-10-21T14:38:39.991Z","level":"info","module":"state","message":"任务「test」状态跃迁","extra":{"taskId":9,"from":"ARMED","to":"RUNNING","reason":"到达开抢时刻"}}
+{"ts":"2026-10-21T14:38:40.278Z","level":"info","module":"session","message":"登录态已加密落库","extra":{"username":"-"}}
+{"ts":"2026-10-21T14:38:40.410Z","level":"info","module":"tickets","message":"余票查询完成","extra":{"count":322}}
+{"ts":"2026-10-21T14:38:40.410Z","level":"info","module":"engine","message":"第 1 轮命中候选：C2226 二等座","extra":{"taskId":9,"round":1}}
+{"ts":"2026-10-21T14:38:40.751Z","level":"info","module":"submit","message":"已注入设备指纹 Cookie"}
+{"ts":"2026-10-21T14:38:40.754Z","level":"info","module":"session","message":"登录态已加密落库","extra":{"username":"-"}}
+{"ts":"2026-10-21T14:38:41.095Z","level":"info","module":"submit","message":"车次已登记","extra":{"hint":"0"}}
+{"ts":"2026-10-21T14:38:41.446Z","level":"info","module":"submit","message":"initDc 成功","extra":{"hasToken":true,"isAsync":"1","purposeCodes":"00","trainLocation":"P2","leftDetails":199}}
+{"ts":"2026-10-21T14:38:41.784Z","level":"info","module":"submit","message":"getPassengerDTOs","extra":{"count":2}}
+{"ts":"2026-10-21T14:38:42.036Z","level":"error","module":"submit","message":"乘车人平台匹配失败","extra":{"localTail":"321X","platformCount":2}}
+{"ts":"2026-10-21T14:38:42.039Z","level":"info","module":"state","message":"任务「test」状态跃迁","extra":{"taskId":9,"from":"RUNNING","to":"FAILED","reason":"提交失败：Error: 乘车人「王**」未在平台档案中匹配到（本地证件尾号 321X；平台档案 2 人：王**…*21X、张**…*021）。若平台确有此人，请检查本地证件号是否录入有误"}}
+{"ts":"2026-10-21T14:38:42.194Z","level":"info","module":"engine","message":"无活跃任务，已解除休眠阻止"}
+{"ts":"2026-10-21T14:39:40.389Z","level":"info","module":"passengers","message":"更新核验标记","extra":{"id":1,"verified":false}}
+{"ts":"2026-10-21T14:39:44.540Z","level":"info","module":"passengers","message":"更新核验标记","extra":{"id":1,"verified":true}}
+{"ts":"2026-10-21T14:42:19.778Z","level":"info","module":"clock","message":"时钟校准完成，本地与服务端偏移 -215ms"}
+{"ts":"2026-10-21T14:45:53.396Z","level":"info","module":"db","message":"数据库已就绪","extra":{"path":"D:\\03_ File\\03_Trae\\高铁票\\dist\\12306购票助手-绿色版\\data\\app.db"}}
+{"ts":"2026-10-21T14:45:53.438Z","level":"info","module":"main","message":"服务已启动","extra":{"url":"http://127.0.0.1:12306"}}
+{"ts":"2026-10-21T14:45:53.603Z","level":"info","module":"clock","message":"时钟校准完成，本地与服务端偏移 -6ms"}
+{"ts":"2026-10-21T14:45:53.604Z","level":"info","module":"engine","message":"调度引擎已启动","extra":{"offsetMs":-6,"lastCalibratedAt":"2026-10-21T14:45:53.603Z"}}
+{"ts":"2026-10-21T14:45:57.778Z","level":"info","module":"session","message":"登录二维码已生成，等待扫码"}
+{"ts":"2026-10-21T14:46:20.198Z","level":"info","module":"session","message":"登录二维码已生成，等待扫码"}
+{"ts":"2026-10-21T14:46:24.319Z","level":"info","module":"session","message":"登录态已加密落库","extra":{"username":"王玮康"}}
+{"ts":"2026-10-21T14:46:27.620Z","level":"info","module":"session","message":"登录态已加密落库","extra":{"username":"-"}}
+{"ts":"2026-10-21T14:46:42.176Z","level":"info","module":"tickets","message":"余票查询完成","extra":{"count":322}}
+{"ts":"2026-10-21T14:46:42.180Z","level":"info","module":"tasks","message":"任务已创建","extra":{"taskId":10,"name":"test","windowEnd":"2026-10-22 11:38"}}
+{"ts":"2026-10-21T14:46:48.484Z","level":"info","module":"state","message":"任务「test」状态跃迁","extra":{"taskId":10,"from":"DRAFT","to":"ARMED","reason":"校验通过，等待开抢时刻"}}
+{"ts":"2026-10-21T14:46:48.646Z","level":"info","module":"engine","message":"存在活跃任务，已阻止系统休眠"}
+{"ts":"2026-10-21T14:47:32.838Z","level":"info","module":"state","message":"任务「test」状态跃迁","extra":{"taskId":10,"from":"ARMED","to":"RUNNING","reason":"到达开抢时刻"}}
+{"ts":"2026-10-21T14:47:33.040Z","level":"info","module":"session","message":"登录态已加密落库","extra":{"username":"-"}}
+{"ts":"2026-10-21T14:47:33.415Z","level":"info","module":"tickets","message":"余票查询完成","extra":{"count":322}}
+{"ts":"2026-10-21T14:47:33.415Z","level":"info","module":"engine","message":"第 1 轮命中候选：C2226 二等座","extra":{"taskId":10,"round":1}}
+{"ts":"2026-10-21T14:47:33.794Z","level":"info","module":"submit","message":"已注入设备指纹 Cookie"}
+{"ts":"2026-10-21T14:47:33.798Z","level":"info","module":"session","message":"登录态已加密落库","extra":{"username":"-"}}
+{"ts":"2026-10-21T14:47:34.124Z","level":"info","module":"submit","message":"车次已登记","extra":{"hint":"0"}}
+{"ts":"2026-10-21T14:47:34.481Z","level":"info","module":"submit","message":"initDc 成功","extra":{"hasToken":true,"isAsync":"1","purposeCodes":"00","trainLocation":"P2","leftDetails":199}}
+{"ts":"2026-10-21T14:47:34.813Z","level":"info","module":"submit","message":"getPassengerDTOs","extra":{"count":2}}
+{"ts":"2026-10-21T14:47:35.065Z","level":"error","module":"submit","message":"乘车人平台匹配失败","extra":{"localTail":"321X","platformCount":2}}
+{"ts":"2026-10-21T14:47:35.067Z","level":"info","module":"state","message":"任务「test」状态跃迁","extra":{"taskId":10,"from":"RUNNING","to":"FAILED","reason":"提交失败：Error: 乘车人「王**」未在平台档案中匹配到（本地证件尾号 321X；平台档案 2 人：王**…*21X、张**…*021）。若平台确有此人，请检查本地证件号是否录入有误"}}
+{"ts":"2026-10-21T14:47:35.242Z","level":"info","module":"engine","message":"无活跃任务，已解除休眠阻止"}
+{"ts":"2026-10-21T14:50:53.762Z","level":"info","module":"clock","message":"时钟校准完成，本地与服务端偏移 -185ms"}
+{"ts":"2026-10-21T14:54:16.340Z","level":"info","module":"db","message":"数据库已就绪","extra":{"path":"D:\\03_ File\\03_Trae\\高铁票\\dist\\12306购票助手-绿色版\\data\\app.db"}}
+{"ts":"2026-10-21T14:54:16.381Z","level":"info","module":"main","message":"服务已启动","extra":{"url":"http://127.0.0.1:12306"}}
+{"ts":"2026-10-21T14:54:16.641Z","level":"info","module":"clock","message":"时钟校准完成，本地与服务端偏移 3ms"}
+{"ts":"2026-10-21T14:54:16.642Z","level":"info","module":"engine","message":"调度引擎已启动","extra":{"offsetMs":3,"lastCalibratedAt":"2026-10-21T14:54:16.641Z"}}
+{"ts":"2026-10-21T14:54:27.262Z","level":"info","module":"session","message":"登录二维码已生成，等待扫码"}
+{"ts":"2026-10-21T14:54:31.472Z","level":"info","module":"session","message":"登录态已加密落库","extra":{"username":"王玮康"}}
+{"ts":"2026-10-21T14:54:37.846Z","level":"info","module":"session","message":"登录态已加密落库","extra":{"username":"-"}}
+{"ts":"2026-10-21T14:54:53.532Z","level":"info","module":"tickets","message":"余票查询完成","extra":{"count":322}}
+{"ts":"2026-10-21T14:54:53.534Z","level":"info","module":"tasks","message":"任务已创建","extra":{"taskId":11,"name":"test","windowEnd":"2026-10-22 11:38"}}
+{"ts":"2026-10-21T14:54:58.027Z","level":"info","module":"state","message":"任务「test」状态跃迁","extra":{"taskId":11,"from":"DRAFT","to":"ARMED","reason":"校验通过，等待开抢时刻"}}
+{"ts":"2026-10-21T14:54:58.235Z","level":"info","module":"engine","message":"存在活跃任务，已阻止系统休眠"}
+{"ts":"2026-10-21T14:55:16.897Z","level":"info","module":"state","message":"任务「test」状态跃迁","extra":{"taskId":11,"from":"ARMED","to":"RUNNING","reason":"到达开抢时刻"}}
+{"ts":"2026-10-21T14:55:16.962Z","level":"info","module":"session","message":"登录态已加密落库","extra":{"username":"-"}}
+{"ts":"2026-10-21T14:55:17.024Z","level":"info","module":"tickets","message":"余票查询完成","extra":{"count":322}}
+{"ts":"2026-10-21T14:55:17.024Z","level":"info","module":"engine","message":"第 1 轮命中候选：C2226 二等座","extra":{"taskId":11,"round":1}}
+{"ts":"2026-10-21T14:55:17.255Z","level":"info","module":"submit","message":"已注入设备指纹 Cookie"}
+{"ts":"2026-10-21T14:55:17.256Z","level":"info","module":"session","message":"登录态已加密落库","extra":{"username":"-"}}
+{"ts":"2026-10-21T14:55:17.562Z","level":"info","module":"submit","message":"车次已登记","extra":{"hint":"0"}}
+{"ts":"2026-10-21T14:55:17.886Z","level":"info","module":"submit","message":"initDc 成功","extra":{"hasToken":true,"isAsync":"1","purposeCodes":"00","trainLocation":"P2","leftDetails":199}}
+{"ts":"2026-10-21T14:55:18.198Z","level":"info","module":"submit","message":"getPassengerDTOs","extra":{"count":2}}
+{"ts":"2026-10-21T14:55:18.475Z","level":"info","module":"submit","message":"confirm 提交","extra":{"ok":false,"trainLocation":"P2","resp":"{\"validateMessagesShowId\":\"_validatorMessage\",\"status\":true,\"httpstatus\":200,\"data\":{\"errMsg\":\"系统繁忙，请稍后重试！\",\"submitStatus\":false},\"messages\":[],\"validateMessages\":{}}"}}
+{"ts":"2026-10-21T14:55:18.477Z","level":"info","module":"state","message":"任务「test」状态跃迁","extra":{"taskId":11,"from":"RUNNING","to":"FAILED","reason":"提交失败：Error: 提交被拒：系统繁忙，请稍后重试！"}}
+{"ts":"2026-10-21T14:55:18.499Z","level":"info","module":"engine","message":"无活跃任务，已解除休眠阻止"}
+{"ts":"2026-10-21T14:58:11.465Z","level":"info","module":"db","message":"数据库已就绪","extra":{"path":"D:\\03_ File\\03_Trae\\高铁票\\dist\\12306购票助手-绿色版\\data\\app.db"}}
+{"ts":"2026-10-21T14:58:11.968Z","level":"info","module":"session","message":"登录态已加密落库","extra":{"username":"-"}}
+{"ts":"2026-10-21T14:59:17.056Z","level":"info","module":"clock","message":"时钟校准完成，本地与服务端偏移 650ms"}
+{"ts":"2026-10-21T15:01:41.043Z","level":"info","module":"db","message":"数据库已就绪","extra":{"path":"D:\\03_ File\\03_Trae\\高铁票\\dist\\12306购票助手-绿色版\\data\\app.db"}}
+{"ts":"2026-10-21T15:01:41.085Z","level":"info","module":"main","message":"服务已启动","extra":{"url":"http://127.0.0.1:12306"}}
+{"ts":"2026-10-21T15:01:41.326Z","level":"info","module":"clock","message":"时钟校准完成，本地与服务端偏移 309ms"}
+{"ts":"2026-10-21T15:01:41.327Z","level":"info","module":"engine","message":"调度引擎已启动","extra":{"offsetMs":309,"lastCalibratedAt":"2026-10-21T15:01:41.326Z"}}
+{"ts":"2026-10-21T15:02:01.218Z","level":"info","module":"session","message":"登录二维码已生成，等待扫码"}
+{"ts":"2026-10-21T15:02:05.476Z","level":"info","module":"session","message":"登录态已加密落库","extra":{"username":"王玮康"}}
+{"ts":"2026-10-21T15:02:08.190Z","level":"info","module":"session","message":"登录态已加密落库","extra":{"username":"-"}}
+{"ts":"2026-10-21T15:02:31.697Z","level":"info","module":"tickets","message":"余票查询完成","extra":{"count":322}}
+{"ts":"2026-10-21T15:02:31.698Z","level":"info","module":"tasks","message":"任务已创建","extra":{"taskId":12,"name":"test","windowEnd":"2026-10-22 11:38"}}
+{"ts":"2026-10-21T15:02:49.499Z","level":"info","module":"state","message":"任务「test」状态跃迁","extra":{"taskId":12,"from":"DRAFT","to":"ARMED","reason":"校验通过，等待开抢时刻"}}
+{"ts":"2026-10-21T15:02:49.595Z","level":"info","module":"engine","message":"存在活跃任务，已阻止系统休眠"}
+{"ts":"2026-10-21T15:03:52.636Z","level":"info","module":"state","message":"任务「test」状态跃迁","extra":{"taskId":12,"from":"ARMED","to":"RUNNING","reason":"到达开抢时刻"}}
+{"ts":"2026-10-21T15:03:52.825Z","level":"info","module":"session","message":"登录态已加密落库","extra":{"username":"-"}}
+{"ts":"2026-10-21T15:03:53.152Z","level":"info","module":"tickets","message":"余票查询完成","extra":{"count":322}}
+{"ts":"2026-10-21T15:03:53.152Z","level":"info","module":"engine","message":"第 1 轮命中候选：C2226 二等座","extra":{"taskId":12,"round":1}}
+{"ts":"2026-10-21T15:03:53.493Z","level":"info","module":"submit","message":"已注入设备指纹 Cookie"}
+{"ts":"2026-10-21T15:03:53.494Z","level":"info","module":"session","message":"登录态已加密落库","extra":{"username":"-"}}
+{"ts":"2026-10-21T15:03:53.847Z","level":"info","module":"submit","message":"车次已登记","extra":{"hint":"0"}}
+{"ts":"2026-10-21T15:03:54.215Z","level":"info","module":"submit","message":"initDc 成功","extra":{"hasToken":true,"isAsync":"1","purposeCodes":"00","trainLocation":"P2","leftDetails":199}}
+{"ts":"2026-10-21T15:03:54.548Z","level":"info","module":"submit","message":"getPassengerDTOs","extra":{"count":2}}
+{"ts":"2026-10-21T15:03:54.800Z","level":"info","module":"submit","message":"confirm 参数长度","extra":{"pts":205,"ops":27,"key":56,"lts":66,"loc":2,"token":32,"jsonAtt":0,"pax":2}}
+{"ts":"2026-10-21T15:03:54.855Z","level":"info","module":"submit","message":"confirm(同步) 提交","extra":{"ok":false,"resp":"{\"validateMessagesShowId\":\"_validatorMessage\",\"status\":true,\"httpstatus\":200,\"data\":{\"errMsg\":\"系统繁忙，请稍后重试！\",\"submitStatus\":false},\"messages\":[],\"validateMessages\":{}}"}}
+{"ts":"2026-10-21T15:03:55.165Z","level":"info","module":"state","message":"任务「test」状态跃迁","extra":{"taskId":12,"from":"RUNNING","to":"FAILED","reason":"提交失败：Error: /otn/confirmPassenger/confirmSingleForQueueAsys 返回非 JSON（状态 405）: "}}
+{"ts":"2026-10-21T15:03:55.248Z","level":"info","module":"engine","message":"无活跃任务，已解除休眠阻止"}
+{"ts":"2026-10-21T15:06:41.421Z","level":"info","module":"clock","message":"时钟校准完成，本地与服务端偏移 124ms"}
+{"ts":"2026-10-21T15:07:45.611Z","level":"info","module":"db","message":"数据库已就绪","extra":{"path":"D:\\03_ File\\03_Trae\\高铁票\\dist\\12306购票助手-绿色版\\data\\app.db"}}
+{"ts":"2026-10-21T15:07:45.656Z","level":"info","module":"main","message":"服务已启动","extra":{"url":"http://127.0.0.1:12306"}}
+{"ts":"2026-10-21T15:07:45.836Z","level":"info","module":"clock","message":"时钟校准完成，本地与服务端偏移 -231ms"}
+{"ts":"2026-10-21T15:07:45.836Z","level":"info","module":"engine","message":"调度引擎已启动","extra":{"offsetMs":-231,"lastCalibratedAt":"2026-10-21T15:07:45.836Z"}}
+{"ts":"2026-10-21T15:07:49.924Z","level":"info","module":"session","message":"登录二维码已生成，等待扫码"}
+{"ts":"2026-10-21T15:07:58.285Z","level":"info","module":"session","message":"登录态已加密落库","extra":{"username":"王玮康"}}
+{"ts":"2026-10-21T15:08:12.891Z","level":"info","module":"tickets","message":"余票查询完成","extra":{"count":322}}
+{"ts":"2026-10-21T15:08:12.892Z","level":"info","module":"tasks","message":"任务已创建","extra":{"taskId":13,"name":"test","windowEnd":"2026-10-22 11:38"}}
+{"ts":"2026-10-21T15:08:14.953Z","level":"info","module":"state","message":"任务「test」状态跃迁","extra":{"taskId":13,"from":"DRAFT","to":"ARMED","reason":"校验通过，等待开抢时刻"}}
+{"ts":"2026-10-21T15:08:15.160Z","level":"info","module":"engine","message":"存在活跃任务，已阻止系统休眠"}
+{"ts":"2026-10-21T15:09:06.109Z","level":"info","module":"state","message":"任务「test」状态跃迁","extra":{"taskId":13,"from":"ARMED","to":"RUNNING","reason":"到达开抢时刻"}}
+{"ts":"2026-10-21T15:09:06.344Z","level":"info","module":"session","message":"登录态已加密落库","extra":{"username":"-"}}
+{"ts":"2026-10-21T15:09:06.560Z","level":"info","module":"tickets","message":"余票查询完成","extra":{"count":322}}
+{"ts":"2026-10-21T15:09:06.561Z","level":"info","module":"engine","message":"第 1 轮命中候选：C2226 二等座","extra":{"taskId":13,"round":1}}
+{"ts":"2026-10-21T15:09:06.915Z","level":"info","module":"submit","message":"已注入设备指纹 Cookie"}
+{"ts":"2026-10-21T15:09:06.916Z","level":"info","module":"session","message":"登录态已加密落库","extra":{"username":"-"}}
+{"ts":"2026-10-21T15:09:07.260Z","level":"info","module":"submit","message":"车次已登记","extra":{"hint":"0"}}
+{"ts":"2026-10-21T15:09:07.615Z","level":"info","module":"submit","message":"initDc 成功","extra":{"hasToken":true,"isAsync":"1","purposeCodes":"00","trainLocation":"P2","leftDetails":199}}
+{"ts":"2026-10-21T15:09:07.973Z","level":"info","module":"submit","message":"getPassengerDTOs","extra":{"count":2}}
+{"ts":"2026-10-21T15:09:08.224Z","level":"info","module":"submit","message":"下单页拟人停留 8000ms …"}
+{"ts":"2026-10-21T15:09:16.224Z","level":"info","module":"submit","message":"confirm 参数长度","extra":{"pts":205,"ops":27,"key":56,"lts":66,"loc":2,"token":32,"jsonAtt":0,"pax":2}}
+{"ts":"2026-10-21T15:09:16.473Z","level":"info","module":"submit","message":"confirm(同步) 提交","extra":{"ok":false,"resp":"{\"validateMessagesShowId\":\"_validatorMessage\",\"status\":true,\"httpstatus\":200,\"data\":{\"errMsg\":\"系统繁忙，请稍后重试！\",\"submitStatus\":false},\"messages\":[],\"validateMessages\":{}}"}}
+{"ts":"2026-10-21T15:09:16.784Z","level":"info","module":"state","message":"任务「test」状态跃迁","extra":{"taskId":13,"from":"RUNNING","to":"FAILED","reason":"提交失败：Error: /otn/confirmPassenger/confirmSingleForQueueAsys 返回非 JSON（状态 405）: "}}
+{"ts":"2026-10-21T15:09:16.946Z","level":"info","module":"engine","message":"无活跃任务，已解除休眠阻止"}
+{"ts":"2026-10-21T15:12:18.692Z","level":"info","module":"db","message":"数据库已就绪","extra":{"path":"D:\\03_ File\\03_Trae\\高铁票\\dist\\12306购票助手-绿色版\\data\\app.db"}}
+{"ts":"2026-10-21T15:12:18.945Z","level":"info","module":"tickets","message":"余票查询完成","extra":{"count":322}}
+{"ts":"2026-10-21T15:12:19.158Z","level":"info","module":"session","message":"登录态已加密落库","extra":{"username":"-"}}
+{"ts":"2026-10-21T15:12:19.211Z","level":"info","module":"submit","message":"车次已登记","extra":{"hint":"0"}}
+{"ts":"2026-10-21T15:12:19.581Z","level":"info","module":"submit","message":"initDc 成功","extra":{"hasToken":true,"isAsync":"1","purposeCodes":"00","trainLocation":"P2","leftDetails":199}}
+{"ts":"2026-10-21T15:12:19.980Z","level":"info","module":"submit","message":"getPassengerDTOs","extra":{"count":2}}
+{"ts":"2026-10-21T15:12:46.057Z","level":"info","module":"clock","message":"时钟校准完成，本地与服务端偏移 553ms"}
+{"ts":"2026-10-21T15:13:31.763Z","level":"info","module":"db","message":"数据库已就绪","extra":{"path":"D:\\03_ File\\03_Trae\\高铁票\\dist\\12306购票助手-绿色版\\data\\app.db"}}
+{"ts":"2026-10-21T15:13:32.205Z","level":"info","module":"tickets","message":"余票查询完成","extra":{"count":322}}
+{"ts":"2026-10-21T15:13:32.466Z","level":"info","module":"session","message":"登录态已加密落库","extra":{"username":"-"}}
+{"ts":"2026-10-21T15:13:32.513Z","level":"info","module":"submit","message":"车次已登记","extra":{"hint":"0"}}
+{"ts":"2026-10-21T15:13:32.883Z","level":"info","module":"submit","message":"initDc 成功","extra":{"hasToken":true,"isAsync":"1","purposeCodes":"00","trainLocation":"P2","leftDetails":199}}
+{"ts":"2026-10-21T15:13:33.243Z","level":"info","module":"submit","message":"getPassengerDTOs","extra":{"count":2}}
+{"ts":"2026-10-21T15:14:09.618Z","level":"info","module":"db","message":"数据库已就绪","extra":{"path":"D:\\03_ File\\03_Trae\\高铁票\\dist\\12306购票助手-绿色版\\data\\app.db"}}
+{"ts":"2026-10-21T15:14:09.902Z","level":"info","module":"tickets","message":"余票查询完成","extra":{"count":322}}
+{"ts":"2026-10-21T15:14:10.100Z","level":"info","module":"session","message":"登录态已加密落库","extra":{"username":"-"}}
+{"ts":"2026-10-21T15:14:10.154Z","level":"info","module":"submit","message":"车次已登记","extra":{"hint":"0"}}
+{"ts":"2026-10-21T15:14:10.519Z","level":"info","module":"submit","message":"initDc 成功","extra":{"hasToken":true,"isAsync":"1","purposeCodes":"00","trainLocation":"P2","leftDetails":199}}
+{"ts":"2026-10-21T15:14:10.878Z","level":"info","module":"submit","message":"getPassengerDTOs","extra":{"count":2}}
+{"ts":"2026-10-21T15:14:52.845Z","level":"info","module":"db","message":"数据库已就绪","extra":{"path":"D:\\03_ File\\03_Trae\\高铁票\\dist\\12306购票助手-绿色版\\data\\app.db"}}
+{"ts":"2026-10-21T15:14:53.074Z","level":"info","module":"tickets","message":"余票查询完成","extra":{"count":322}}
+{"ts":"2026-10-21T15:14:53.290Z","level":"info","module":"session","message":"登录态已加密落库","extra":{"username":"-"}}
+{"ts":"2026-10-21T15:14:53.349Z","level":"info","module":"submit","message":"车次已登记","extra":{"hint":"0"}}
+{"ts":"2026-10-21T15:14:53.713Z","level":"info","module":"submit","message":"initDc 成功","extra":{"hasToken":true,"isAsync":"1","purposeCodes":"00","trainLocation":"P2","leftDetails":199}}
+{"ts":"2026-10-21T15:14:54.190Z","level":"info","module":"submit","message":"getPassengerDTOs","extra":{"count":2}}
+{"ts":"2026-10-21T15:16:26.609Z","level":"info","module":"db","message":"数据库已就绪","extra":{"path":"D:\\03_ File\\03_Trae\\高铁票\\dist\\12306购票助手-绿色版\\data\\app.db"}}
+{"ts":"2026-10-21T15:16:26.829Z","level":"info","module":"tickets","message":"余票查询完成","extra":{"count":322}}
+{"ts":"2026-10-21T15:16:27.047Z","level":"info","module":"session","message":"登录态已加密落库","extra":{"username":"-"}}
+{"ts":"2026-10-21T15:16:27.097Z","level":"info","module":"submit","message":"车次已登记","extra":{"hint":"0"}}
+{"ts":"2026-10-21T15:16:27.469Z","level":"info","module":"submit","message":"initDc 成功","extra":{"hasToken":true,"isAsync":"1","purposeCodes":"00","trainLocation":"P2","leftDetails":199}}
+{"ts":"2026-10-21T15:16:27.825Z","level":"info","module":"submit","message":"getPassengerDTOs","extra":{"count":2}}
+{"ts":"2026-10-21T15:17:25.092Z","level":"info","module":"db","message":"数据库已就绪","extra":{"path":"D:\\03_ File\\03_Trae\\高铁票\\dist\\12306购票助手-绿色版\\data\\app.db"}}
+{"ts":"2026-10-21T15:17:25.389Z","level":"info","module":"tickets","message":"余票查询完成","extra":{"count":322}}
+{"ts":"2026-10-21T15:17:25.696Z","level":"info","module":"session","message":"登录态已加密落库","extra":{"username":"-"}}
+{"ts":"2026-10-21T15:17:25.777Z","level":"info","module":"submit","message":"车次已登记","extra":{"hint":"0"}}
+{"ts":"2026-10-21T15:17:26.144Z","level":"info","module":"submit","message":"initDc 成功","extra":{"hasToken":true,"isAsync":"1","purposeCodes":"00","trainLocation":"P2","leftDetails":199}}
+{"ts":"2026-10-21T15:17:26.500Z","level":"info","module":"submit","message":"getPassengerDTOs","extra":{"count":2}}
+{"ts":"2026-10-21T15:17:46.050Z","level":"info","module":"clock","message":"时钟校准完成，本地与服务端偏移 557ms"}
+{"ts":"2026-10-21T15:18:40.691Z","level":"info","module":"db","message":"数据库已就绪","extra":{"path":"D:\\03_ File\\03_Trae\\高铁票\\dist\\12306购票助手-绿色版\\data\\app.db"}}
+{"ts":"2026-10-21T15:18:41.129Z","level":"info","module":"tickets","message":"余票查询完成","extra":{"count":322}}
+{"ts":"2026-10-21T15:18:41.501Z","level":"info","module":"session","message":"登录态已加密落库","extra":{"username":"-"}}
+{"ts":"2026-10-21T15:18:41.581Z","level":"info","module":"submit","message":"车次已登记","extra":{"hint":"0"}}
+{"ts":"2026-10-21T15:18:42.003Z","level":"info","module":"submit","message":"initDc 成功","extra":{"hasToken":true,"isAsync":"1","purposeCodes":"00","trainLocation":"P2","leftDetails":199}}
+{"ts":"2026-10-21T15:18:42.386Z","level":"info","module":"submit","message":"getPassengerDTOs","extra":{"count":2}}
+{"ts":"2026-10-21T15:22:45.938Z","level":"info","module":"clock","message":"时钟校准完成，本地与服务端偏移 -388ms"}
+{"ts":"2026-10-21T15:27:46.095Z","level":"info","module":"clock","message":"时钟校准完成，本地与服务端偏移 533ms"}
+{"ts":"2026-10-21T15:32:45.944Z","level":"info","module":"clock","message":"时钟校准完成，本地与服务端偏移 -392ms"}
+{"ts":"2026-10-21T15:37:45.960Z","level":"info","module":"clock","message":"时钟校准完成，本地与服务端偏移 -401ms"}
+{"ts":"2026-10-21T15:42:26.412Z","level":"info","module":"db","message":"数据库已就绪","extra":{"path":"D:\\03_ File\\03_Trae\\高铁票\\dist\\12306购票助手-绿色版\\data\\app.db"}}
+{"ts":"2026-10-21T15:42:26.627Z","level":"info","module":"tickets","message":"余票查询完成","extra":{"count":322}}
+{"ts":"2026-10-21T15:42:26.809Z","level":"info","module":"submit","message":"已注入 _uab_collina 行为指纹 Cookie"}
+{"ts":"2026-10-21T15:42:26.811Z","level":"info","module":"session","message":"登录态已加密落库","extra":{"username":"-"}}
+{"ts":"2026-10-21T15:42:46.074Z","level":"info","module":"clock","message":"时钟校准完成，本地与服务端偏移 542ms"}
+{"ts":"2026-10-21T15:44:30.747Z","level":"info","module":"db","message":"数据库已就绪","extra":{"path":"D:\\03_ File\\03_Trae\\高铁票\\dist\\12306购票助手-绿色版\\data\\app.db"}}
+{"ts":"2026-10-21T15:44:31.286Z","level":"info","module":"tickets","message":"余票查询完成","extra":{"count":321}}
+{"ts":"2026-10-21T15:44:31.634Z","level":"info","module":"session","message":"登录态已加密落库","extra":{"username":"-"}}
+{"ts":"2026-10-21T15:47:45.981Z","level":"info","module":"clock","message":"时钟校准完成，本地与服务端偏移 588ms"}
+{"ts":"2026-10-21T15:52:45.959Z","level":"info","module":"clock","message":"时钟校准完成，本地与服务端偏移 599ms"}
+{"ts":"2026-10-21T15:57:46.004Z","level":"info","module":"clock","message":"时钟校准完成，本地与服务端偏移 576ms"}
+{"ts":"2026-10-21T16:02:46.011Z","level":"info","module":"clock","message":"时钟校准完成，本地与服务端偏移 573ms"}
+{"ts":"2026-10-21T16:07:46.045Z","level":"info","module":"clock","message":"时钟校准完成，本地与服务端偏移 555ms"}
+{"ts":"2026-10-21T16:12:45.997Z","level":"info","module":"clock","message":"时钟校准完成，本地与服务端偏移 578ms"}
+{"ts":"2026-10-21T16:15:17.698Z","level":"info","module":"db","message":"数据库已就绪","extra":{"path":"D:\\03_ File\\03_Trae\\高铁票\\dist\\12306购票助手-绿色版\\data\\app.db"}}
+{"ts":"2026-10-21T16:15:17.740Z","level":"info","module":"main","message":"服务已启动","extra":{"url":"http://127.0.0.1:12306"}}
+{"ts":"2026-10-21T16:15:17.971Z","level":"info","module":"clock","message":"时钟校准完成，本地与服务端偏移 658ms"}
+{"ts":"2026-10-21T16:15:17.971Z","level":"info","module":"engine","message":"调度引擎已启动","extra":{"offsetMs":658,"lastCalibratedAt":"2026-10-21T16:15:17.971Z"}}
+{"ts":"2026-10-21T16:15:20.566Z","level":"info","module":"session","message":"登录二维码已生成，等待扫码"}
+{"ts":"2026-10-21T16:15:30.805Z","level":"info","module":"session","message":"登录态已加密落库","extra":{"username":"王玮康"}}
+{"ts":"2026-10-21T16:15:45.337Z","level":"info","module":"tickets","message":"余票查询完成","extra":{"count":322}}
+{"ts":"2026-10-21T16:15:45.339Z","level":"info","module":"tasks","message":"任务已创建","extra":{"taskId":14,"name":"test","windowEnd":"2026-10-22 11:38"}}
+{"ts":"2026-10-21T16:15:47.785Z","level":"info","module":"state","message":"任务「test」状态跃迁","extra":{"taskId":14,"from":"DRAFT","to":"ARMED","reason":"校验通过，等待开抢时刻"}}
+{"ts":"2026-10-21T16:15:47.899Z","level":"info","module":"engine","message":"存在活跃任务，已阻止系统休眠"}
+{"ts":"2026-10-21T16:16:36.263Z","level":"info","module":"state","message":"任务「test」状态跃迁","extra":{"taskId":14,"from":"ARMED","to":"RUNNING","reason":"到达开抢时刻"}}
+{"ts":"2026-10-21T16:16:36.432Z","level":"info","module":"session","message":"登录态已加密落库","extra":{"username":"-"}}
+{"ts":"2026-10-21T16:16:36.536Z","level":"info","module":"tickets","message":"余票查询完成","extra":{"count":322}}
+{"ts":"2026-10-21T16:16:36.539Z","level":"info","module":"engine","message":"第 1 轮命中候选：C2226 二等座","extra":{"taskId":14,"round":1}}
+{"ts":"2026-10-21T16:16:36.803Z","level":"info","module":"submit","message":"已注入设备指纹 Cookie"}
+{"ts":"2026-10-21T16:16:36.804Z","level":"info","module":"submit","message":"已注入 _uab_collina 行为指纹 Cookie"}
+{"ts":"2026-10-21T16:16:36.805Z","level":"info","module":"session","message":"登录态已加密落库","extra":{"username":"-"}}
+{"ts":"2026-10-21T16:16:37.104Z","level":"info","module":"submit","message":"车次已登记","extra":{"hint":"0"}}
+{"ts":"2026-10-21T16:16:37.424Z","level":"info","module":"submit","message":"initDc 成功","extra":{"hasToken":true,"isAsync":"1","purposeCodes":"00","trainLocation":"P2","leftDetails":199}}
+{"ts":"2026-10-21T16:16:37.732Z","level":"info","module":"submit","message":"getPassengerDTOs","extra":{"count":2}}
+{"ts":"2026-10-21T16:16:37.983Z","level":"info","module":"submit","message":"下单页拟人停留 8000ms …"}
+{"ts":"2026-10-21T16:16:45.985Z","level":"info","module":"submit","message":"confirm 参数长度","extra":{"pts":205,"ops":27,"key":56,"lts":64,"loc":2,"token":32,"jsonAtt":0,"pax":2}}
+{"ts":"2026-10-21T16:16:46.075Z","level":"info","module":"submit","message":"confirm(同步) 提交","extra":{"ok":false,"resp":"{\"validateMessagesShowId\":\"_validatorMessage\",\"status\":true,\"httpstatus\":200,\"data\":{\"errMsg\":\"系统繁忙，请稍后重试！\",\"submitStatus\":false},\"messages\":[],\"validateMessages\":{}}"}}
+{"ts":"2026-10-21T16:16:46.361Z","level":"info","module":"state","message":"任务「test」状态跃迁","extra":{"taskId":14,"from":"RUNNING","to":"FAILED","reason":"提交失败：Error: /otn/confirmPassenger/confirmSingleForQueueAsys 返回非 JSON（状态 405）: "}}
+{"ts":"2026-10-21T16:16:46.503Z","level":"info","module":"engine","message":"无活跃任务，已解除休眠阻止"}
+{"ts":"2026-10-21T16:20:18.159Z","level":"info","module":"clock","message":"时钟校准完成，本地与服务端偏移 434ms"}
+{"ts":"2026-10-21T16:25:18.188Z","level":"info","module":"clock","message":"时钟校准完成，本地与服务端偏移 420ms"}
+{"ts":"2026-10-21T16:30:18.137Z","level":"info","module":"clock","message":"时钟校准完成，本地与服务端偏移 445ms"}
+{"ts":"2026-10-21T16:35:18.201Z","level":"info","module":"clock","message":"时钟校准完成，本地与服务端偏移 412ms"}
+{"ts":"2026-10-21T22:58:37.726Z","level":"info","module":"clock","message":"时钟校准完成，本地与服务端偏移 822ms"}
+{"ts":"2026-10-21T23:03:37.848Z","level":"info","module":"clock","message":"时钟校准完成，本地与服务端偏移 760ms"}
+{"ts":"2026-10-21T23:08:37.753Z","level":"info","module":"clock","message":"时钟校准完成，本地与服务端偏移 808ms"}
+{"ts":"2026-10-21T23:13:37.787Z","level":"info","module":"clock","message":"时钟校准完成，本地与服务端偏移 777ms"}
+{"ts":"2026-10-21T23:18:37.846Z","level":"info","module":"clock","message":"时钟校准完成，本地与服务端偏移 710ms"}
+{"ts":"2026-10-21T23:23:37.941Z","level":"info","module":"clock","message":"时钟校准完成，本地与服务端偏移 627ms"}
+{"ts":"2026-10-21T23:28:38.125Z","level":"info","module":"clock","message":"时钟校准完成，本地与服务端偏移 499ms"}
+{"ts":"2026-10-21T23:33:38.042Z","level":"info","module":"clock","message":"时钟校准完成，本地与服务端偏移 514ms"}
+{"ts":"2026-10-21T23:38:38.086Z","level":"info","module":"clock","message":"时钟校准完成，本地与服务端偏移 466ms"}
+{"ts":"2026-10-21T23:43:38.260Z","level":"info","module":"clock","message":"时钟校准完成，本地与服务端偏移 353ms"}
+{"ts":"2026-10-21T23:48:38.219Z","level":"info","module":"clock","message":"时钟校准完成，本地与服务端偏移 351ms"}
+{"ts":"2026-10-21T23:53:38.204Z","level":"info","module":"clock","message":"时钟校准完成，本地与服务端偏移 340ms"}
+{"ts":"2026-10-21T23:58:38.264Z","level":"info","module":"clock","message":"时钟校准完成，本地与服务端偏移 292ms"}
